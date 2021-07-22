@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Square1Blogger", "Square1Blogger\Square1Blogger.csproj", "{8E17E005-550F-4E0C-9EBE-E3DA5775FDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitBloggerTestCases", "XUnitBloggerTestCases\XUnitBloggerTestCases.csproj", "{D9A5898B-0A13-4CDA-9130-329CF4032199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E17E005-550F-4E0C-9EBE-E3DA5775FDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E17E005-550F-4E0C-9EBE-E3DA5775FDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E17E005-550F-4E0C-9EBE-E3DA5775FDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E17E005-550F-4E0C-9EBE-E3DA5775FDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A5898B-0A13-4CDA-9130-329CF4032199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A5898B-0A13-4CDA-9130-329CF4032199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A5898B-0A13-4CDA-9130-329CF4032199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A5898B-0A13-4CDA-9130-329CF4032199}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12911932-8F83-404B-8618-892C7FD6350D}
+	EndGlobalSection
+EndGlobal

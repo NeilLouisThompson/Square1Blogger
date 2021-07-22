@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Square1Blogger.Models.Blogs.Blog>
+@{
+    ViewData["Title"] = "Manage Blogs";
+}
+
+<div class="container-fluid">
+    <div class="row content">
+        @if (Model.Count() == 0)
+        {
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <h5>No Blogs Posted yet</h5>
+            </div>
+        }
+        else
+        {
+            <div class="col-sm-9">
+                <h4><small>MY POSTS</small><a class="btn btn-primary float-right" asp-action="Create" role="button">Create a Post</a></h4>
+
+                @foreach (var item in Model)
+                {
+                    <hr>
+                    <h2>@item.Title</h2>
+                    <h5>Post by @item.UserName</h5>
+                    <p>@item.PublicationDate</p>
+                    <p>@item.Description</p>
+                    <br><br>
+                }
+            </div>
+        }
+    </div>
+</div>
